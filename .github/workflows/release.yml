@@ -14,8 +14,8 @@ permissions:
 on:
   push:
     # Triggers the workflow on tag push events
-    tags:
-      - v[0-9]+.*
+    branches:
+    - main
 
 env:
   RUST_BACKTRACE: 1
